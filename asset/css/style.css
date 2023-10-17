@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+#header{
+    height: 64px;
+    background-color: #6598C5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo-img{
+  height: 42px;
+}
+.header-logo-img:hover{
+    cursor: pointer;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav-item{
+    display: flex   ;
+    align-items: center;
+    height: 32px;
+    border-radius: 20px;
+    padding: 12px 24px 12px 24px;
+    margin-right: 42px;
+    background-color: rgb(255, 255, 255);
+}
+.header-nav-item:hover{
+    cursor: pointer;
+}
+.header-nav-text{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
+#download-grid{
+    display: flex;
+    position: relative;
+    margin-top: 46px;
+    height: 700px;
+    background-image: url(../img/YAMATE/Background.png);
+}
+.left-grid{
+    position: absolute;
+    top:126px;
+    left: 135px;
+
+}
+.left-grid-text{
+    width: 400px;
+}
+.left-grid-text-title{
+    font-size: 52px;
+    font-weight: 500;
+    color: #000000;
+    font-family: Roboto;
+}
+.left-grid-text-detail{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.download{
+    background-color: #6598C5;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.left-grid-download{
+    margin-top: 32px;
+}
+.download-text{
+    line-height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-grid{
+    left: 656px;
+    position: absolute;
+    top:36px;
+}
+#functions{
+    position: relative;
+    margin-top: 24px;
+    height:700px ;
+    background-image: url(../img/FUNCTION.png);
+
+}
+.close{
+    display: none;
+}
+#functions-2{
+    position: relative;
+    margin-top: 24px;
+    height:700px ;
+    background-image: url(../img/FUNCTION\ 2.png);
+ 
+}
+.functions-grid{
+
+}
+.functions-download{
+    position: absolute;
+    left: 620px;
+    bottom: 63px;
+}
+.icon-next1{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 259px;
+    right: 25px;
+
+}
+.icon-next2{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 259px;
+    right: 25px;
+
+}
+.icon-next1:hover{
+    cursor: pointer;
+}
+.icon-next2:hover{
+    cursor: pointer;
+}
+#aboutus{
+    position: relative;
+    margin-top: 24px;
+    height:700px ;
+    background-image: url(../img/ABOUT\ US.png);
+}
+.aboutus-download{
+    position: absolute;
+    left: 620px;
+    bottom: 44px;
+}

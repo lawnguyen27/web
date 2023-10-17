@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./asset/img/YAMATE/favicon_io (1)/android-chrome-512x512.png">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+
+
+    <title>Insta Park</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header-logo">
+                <img class="header-logo-img" src="./asset/img/YAMATE/Logo.png">
+            </div>
+            <div class="header-nav">
+                <div class="header-nav-item">
+                    <a class="header-nav-text" href="#download-grid">DOWNLOAD</a>
+                </div>
+                <div class="header-nav-item">
+                    <a class="header-nav-text" href="#functions">FUNCTIONS</a>
+                </div>
+                <div class="header-nav-item">
+                    <a class="header-nav-text" href="#aboutus">ABOUT US</a>
+                </div>
+            </div>
+     
+       
+        </div>
+        <div id="download-grid">
+            <div class="left-grid">
+                <div class="left-grid-text">
+                    <h1 class="left-grid-text-title">NO MORE CIRCLING THE BLOCK</h1>
+                    <h3 class="left-grid-text-detail">Finding can be a pain. Parking can be strain.
+                        InstaPark made it easy to find, book, and pay for parking in minutes. </h3>
+                </div>
+                <div class="download left-grid-download"> 
+                    <a href="./asset/instaparkapp.rar" class="download-text">Download Now</a>    
+                </div>
+            </div>
+            <div class="right-grid">
+                <div class="right-grid-img">
+                    <img src="./asset/img/YAMATE/3 dien thoai.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="function">
+            <div id="functions" class="f1"> 
+                <div class="functions-grid">
+                    <div class="download functions-download"> 
+                        <a href="./asset/instaparkapp.rar" class="download-text">Download Now</a>    
+                    </div>
+                    <svg class="icon-next1" xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                        <circle cx="34.5" cy="34.5" r="34.5" fill="#126DA6"/>
+                        <path d="M55.1273 36.7277C56.1036 35.7514 56.1036 34.1685 55.1273 33.1922L39.2174 17.2823C38.2411 16.306 36.6582 16.306 35.6819 17.2823C34.7056 18.2586 34.7056 19.8415 35.6819 20.8178L49.824 34.96L35.6819 49.1021C34.7056 50.0784 34.7056 51.6613 35.6819 52.6376C36.6582 53.6139 38.2411 53.6139 39.2174 52.6376L55.1273 36.7277ZM16.5596 37.46H53.3596V32.46H16.5596V37.46Z" fill="white"/>
+                        </svg>
+                </div>
+    
+            </div>
+            <div id="functions-2" class="f2 close"> 
+                <div class="functions-grid">
+                    <div class="download functions-download"> 
+                        <a href="./asset/instaparkapp.rar" class="download-text">Download Now</a>    
+                    </div>
+                    <svg class="icon-next2" xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                        <circle cx="34.5" cy="34.5" r="34.5" fill="#126DA6"/>
+                        <path d="M55.1273 36.7277C56.1036 35.7514 56.1036 34.1685 55.1273 33.1922L39.2174 17.2823C38.2411 16.306 36.6582 16.306 35.6819 17.2823C34.7056 18.2586 34.7056 19.8415 35.6819 20.8178L49.824 34.96L35.6819 49.1021C34.7056 50.0784 34.7056 51.6613 35.6819 52.6376C36.6582 53.6139 38.2411 53.6139 39.2174 52.6376L55.1273 36.7277ZM16.5596 37.46H53.3596V32.46H16.5596V37.46Z" fill="white"/>
+                        </svg>
+                </div>
+    
+        </div>
+       
+        </div>
+        <div id="aboutus"> 
+            <div class="functions-grid">
+                <div class="download aboutus-download"> 
+                    <a href="./asset/instaparkapp.rar" class="download-text">Download Now</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Get a reference to the div element
+        var divToReload = document.querySelector(".header-logo");
+
+        // Add a click event listener
+        divToReload.addEventListener("click", function() {
+            location.reload(); // Reload the page
+        });
+        const next= document.querySelector('.icon-next1')
+        const next2= document.querySelector('.icon-next2')
+
+        const function1 = document.getElementById("functions")
+        const functions2 = document.getElementById("functions-2")
+        function clickicon1(){
+            console.log("a")
+            if(functions2.classList.contains('close')){
+                function1.classList.add('close')
+                functions2.classList.remove('close')
+            }else{
+                function1.classList.remove('close')
+                functions2.classList.add('close')
+            }
+          
+        }
+        next.addEventListener('click',clickicon1)
+        next2.addEventListener('click',clickicon1)
+    </script>
+</body>
+</html>
