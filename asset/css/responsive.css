@@ -5,9 +5,7 @@
 /*Mobile*/
 @media(max-width:46.1875em) {
  
-    .s-full-width{
-        width: 100% !important;
-    }
+   
     #main{
         width: 100%;
     }
@@ -82,7 +80,7 @@
         top: 0%;
     }
     .download{
-        display: none;
+      
         width: 120px;
         height: 40px;
     }
@@ -91,16 +89,18 @@
         font-size: 12px;
     }
     .functions-download{
+        display: none;
         position: absolute;
         left:calc(50% - 60px);
         
     }
     .aboutus-download{
+      display: none;
       position: absolute;
       left:calc(50% - 60px);
     }
     #aboutus{
-        height: 670px;
+        height: 480px;
         margin-top: 0px;
         background-size: 110%;
         background-repeat: no-repeat;
