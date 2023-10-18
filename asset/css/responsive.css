@@ -1,0 +1,107 @@
+@media(min-width :63.937em){
+    /* lam to nhung nut bam ra */
+    
+}
+/*Mobile*/
+@media(max-width:46.1875em) {
+ 
+    .s-full-width{
+        width: 100% !important;
+    }
+    #main{
+        width: 100%;
+    }
+    #header{
+        box-sizing: border-box;
+       position: relative;
+        
+    }
+    .header-nav{
+        display: none;
+    }
+    #download-grid{
+        margin-top: 0;
+        flex-wrap: wrap-reverse;
+        height: fit-content;
+    }
+    .left-grid{
+        top: auto;
+        left: auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right-grid{
+        top: auto;
+        left: auto;
+        position: relative;
+    }
+    .right-grid-img img{
+        width: 100%;
+    }
+    .left-grid-text-title{
+        font-size: 20px;
+       margin-left: 8px;
+    }
+    .left-grid-text-detail{
+        margin-left: 4px;
+        font-size: 16px;
+    }
+    .left-grid-download{
+        margin-bottom: 12px;
+    }
+    #function{
+
+    }
+    #functions{
+        height: 300px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+    }
+    #functions-2{
+        height: 300px;
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+    .icon-next1{
+        height: 38px;
+        width: 38px;
+        position: relative;
+        right: -90%;
+        
+        top: 0%;
+
+    }
+    .icon-next2{
+        height: 38px;
+        width: 38px;
+        position: relative;
+        right: -90%;
+        
+        top: 0%;
+    }
+    .download{
+        width: 120px;
+        height: 40px;
+    }
+    .download-text{
+        line-height: 40px;
+        font-size: 12px;
+    }
+    .functions-download{
+        position: absolute;
+        left:calc(50% - 60px);
+        
+    }
+    .aboutus-download{
+      position: absolute;
+      left:calc(50% - 60px);
+    }
+    #aboutus{
+        height: 670px;
+        margin-top: 0px;
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+}
